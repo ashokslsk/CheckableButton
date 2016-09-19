@@ -2,8 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
 
-
-
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
@@ -55,22 +53,22 @@ task generateJavaDocsJar(type: Jar) {
 generateJavaDocsJar.dependsOn generateJavaDocs
 
 bintray {
-    user = 'YOUR_BINTRAY_APP_ID'
-    key = 'YOUR_BINTRAY_APP_KEY'
+    user = 'ashokslsk'
+    key = 'YOUR_APP_KEY'
 
     pkg {
-        repo = 'CustomCamera'
+        repo = 'CheckableView'
         name = 'library'
 
         version {
-            name = 'CustomCamera'
-            desc = 'CustomCamera'
+            name = 'CheckableView'
+            desc = 'CheckableView'
             released  = new Date()
             vcsTag = '1.0.1'
         }
 
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://git.dunstconsulting.com/anshuman.pattnaik/CustomCamera.git'
+        vcsUrl = 'https://github.com/ashokslsk/CheckableButton.git'
         websiteUrl = 'http://dunstconsulting.com/'
     }
     configurations = ['archives']
