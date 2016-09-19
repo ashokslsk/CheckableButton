@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ashokslsk.checkablebutton.MainActivity">
+
+    <com.dunst.check.CheckableButton
+        android:id="@+id/button1"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:background="@drawable/selector"
+        android:text="Click1"
+        android:textColor="@drawable/checkable_text_color"
+        android:textSize="14sp" />
+
+    <com.dunst.check.CheckableImageButton
+        android:id="@+id/button2"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@drawable/selector"
+        android:src="@drawable/balloon"
+        android:text="Click2"
+        android:textColor="@drawable/checkable_text_color"
+        android:textSize="14sp" />
+</RelativeLayout>
