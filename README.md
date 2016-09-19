@@ -6,7 +6,7 @@ This library is an example of having button components as checkable views [Offic
 
 
 #Installation
-```sh
+```groovy
 repositories {
     maven {
         url 'https://dl.bintray.com/ashokslsk/CheckableView'
@@ -18,7 +18,7 @@ dependencies {
 }
 ```
 #CheckableButton 
-```
+```xml
  <com.dunst.check.CheckableButton
         android:id="@+id/button1"
         android:layout_width="88dp"
@@ -30,7 +30,7 @@ dependencies {
 ```
 
 #CheckableImageButton
-```
+```xml
 <com.dunst.check.CheckableImageButton
         android:id="@+id/button2"
         android:layout_width="88dp"
@@ -47,40 +47,37 @@ dependencies {
 
 ##Using drawables for border
 **Checkable_default_border.xml**
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke android:width="1dp" android:color="#DDDDDD" />
     <corners android:radius="2dp" />
     <solid android:color="@android:color/white" />
 </shape>
-
 ```
 
 **checkable_selected_border.xml**
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke android:color="#ED2727" android:width="1dp" />
     <corners android:radius="2dp" />
     <solid android:color="@android:color/white" />
 </shape>
-
 ```
 **checkable_text_color.xml**
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true" android:color="@android:color/darker_gray" />
     <item android:state_checkable="true" android:color="@android:color/darker_gray"/>
     <item android:color="@android:color/darker_gray"/>
 </selector>
-
 ```
 
-#In Java 
+# In Java 
 
-```
+```java
  com.dunst.check.CheckableButton mClickCheck1;
  com.dunst.check.CheckableImageButton mClickCheck2;
 
@@ -115,7 +112,6 @@ dependencies {
 ![Library screen](https://github.com/ashokslsk/CheckableButton/blob/master/screens/Screen1.gif)
 
 
-
 ## License
 ```
 MIT License
@@ -141,15 +137,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
