@@ -1,5 +1,7 @@
 # CheckableView Libarary
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CheckableButton-green.svg?style=true)](https://android-arsenal.com/details/1/4379)
+
 CheckableView library that features **Button** and **ImageButton** to work as a checkable view components.
 
 This library is an example of having button components as checkable views [Official Documentation on Checkable](https://developer.android.com/reference/android/widget/Checkable.html)
