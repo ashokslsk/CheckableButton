@@ -1,4 +1,4 @@
-# CheckableView Libarary
+# CheckableView Library
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CheckableButton-green.svg?style=true)](https://android-arsenal.com/details/1/4379)
 
